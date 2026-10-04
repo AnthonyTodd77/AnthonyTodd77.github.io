@@ -14,3 +14,6 @@ The editable source lives in `../zhen-tao-academic-site`. After updating it and 
 node scripts/export-github-pages.mjs
 ```
 
+### Adding a news item
+
+Edit the `news` array in `../zhen-tao-academic-site/app/site-data.ts`. Add the newest item at the top, then run the export command above. Use one of these status labels in the copy: `published`, `accepted`, `pre-accepted`, `scheduled to present`, or `attended`.
